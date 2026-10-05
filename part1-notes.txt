@@ -1,0 +1,27 @@
+console.log("Hello, JavaScript!");
+Result: Hello, JavaScript!
+
+console.log(5 + 3 * 2);
+Result: 11
+
+console.log("5" + 3);
+Result: "53"
+
+console.log("5" - 3);
+Result: 2
+
+console.log(typeof 42);
+Result: "number"
+
+console.log(typeof "hello");
+Result: "string"
+
+console.log(typeof true);
+Result: "boolean"
+
+console.log(typeof undefined);
+Result: "undefined"
+
+Explanation:
+
+"5" + 3 gives "53" because the + operator joins the values when one of them is a string. JavaScript converts the number 3 into a string and combines it with "5". However, "5" - 3 gives 2 because the - operator performs subtraction, so JavaScript converts "5" into the number 5.
